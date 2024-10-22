@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Recipe 2: Apple Pie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f6d8a2 0%, #fcb69f 100%);
+            color: #2d3436;
+        }
+        .recipe-details {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 20px; }
+        h2 { font-size: 1.8rem; margin-top: 30px; border-bottom: 2px solid #fcb69f; padding-bottom: 10px; }
+        h3 { font-size: 1.4rem; margin-top: 20px; }
+        ul { list-style: none; padding-left: 0; }
+        ul li::before {
+            content: "\2022";
+            color: #fcb69f;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        .recipe-details p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .navbar { background-color: #2c3e50; }
+        .navbar-brand { font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; color: #fcb69f!important; }
+        .navbar-nav .nav-link { font-size: 1.1rem; margin-left: 10px; color: #ffffff !important; }
+        .nav-link.active { color: #fcb69f !important; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        footer p { margin: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tasty Bites</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recipes</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+                                <li><a class="dropdown-item" href="non-vegetarian.html">Non-Vegetarian</a></li>
+                                <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+                                <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                                <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                                <li><a class="dropdown-item" href="healthy-recipes.html">Healthy Recipes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="recipe-details">
+        <h1>Apple Pie</h1>
+        <p>A classic, delicious apple pie recipe that's perfect for any occasion!</p>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>6 cups thinly sliced apples</li>
+            <li>3/4 cup sugar</li>
+            <li>2 tbsp all-purpose flour</li>
+            <li>1/2 tsp ground cinnamon</li>
+            <li>1/4 tsp ground nutmeg</li>
+            <li>1 tbsp lemon juice</li>
+            <li>1 double-crust pie dough</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <h3>Step 1: Preheat Oven</h3>
+        <p>Preheat your oven to 425°F (220°C). Roll out half of the dough and place it into a 9-inch pie dish.</p>
+        <h3>Step 2: Prepare Filling</h3>
+        <p>In a large bowl, mix apples, sugar, flour, cinnamon, nutmeg, and lemon juice. Pour into pie crust.</p>
+        <h3>Step 3: Add Top Crust</h3>
+        <p>Roll out the remaining dough and place it over the apple mixture. Crimp the edges and cut small slits for steam to escape.</p>
+        <h3>Step 4: Bake</h3>
+        <p>Bake for 40-45 minutes, or until the crust is golden and the filling is bubbling. Let cool before serving.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tasty Bites. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

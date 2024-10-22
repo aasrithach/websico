@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Recipe 1: Cheeseburger</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            color: #2d3436;
+        }
+        .recipe-details {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 20px; }
+        h2 { font-size: 1.8rem; margin-top: 30px; border-bottom: 2px solid #fcb69f; padding-bottom: 10px; }
+        h3 { font-size: 1.4rem; margin-top: 20px; }
+        ul { list-style: none; padding-left: 0; }
+        ul li::before {
+            content: "\2022";
+            color: #fcb69f;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        .recipe-details p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .navbar { background-color: #2c3e50; }
+        .navbar-brand { font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; color: #fcb69f !important; }
+        .navbar-nav .nav-link { font-size: 1.1rem; margin-left: 10px; color: #ffffff !important; }
+        .nav-link.active { color: #fcb69f !important; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        footer p { margin: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tasty Bites</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recipes</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+                                <li><a class="dropdown-item" href="non-vegetarian.html">Non-Vegetarian</a></li>
+                                <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+                                <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                                <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                                <li><a class="dropdown-item" href="healthy-recipes.html">Healthy Recipes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="recipe-details">
+        <h1>Cheeseburger</h1>
+<br>        <p>This classic cheeseburger is juicy, flavorful, and easy to make. Perfect for any grill master!</p>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 lb ground beef (80/20)</li>
+            <li>4 slices cheddar cheese</li>
+            <li>4 hamburger buns</li>
+            <li>Salt and pepper to taste</li>
+            <li>1 tbsp olive oil</li>
+            <li>1 cup lettuce, shredded</li>
+            <li>1 tomato, sliced</li>
+            <li>1/2 onion, sliced</li>
+            <li>Ketchup and mustard for serving</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <h3>Step 1: Prepare the Beef Patties</h3>
+        <p>In a bowl, mix the ground beef with salt and pepper. Divide into 4 equal portions and shape into patties.</p>
+        <h3>Step 2: Heat the Grill</h3>
+        <p>Preheat your grill to medium-high heat and brush the grates with olive oil to prevent sticking.</p>
+        <h3>Step 3: Cook the Patties</h3>
+        <p>Place the patties on the grill. Cook for about 4-5 minutes on one side until browned.</p>
+        <h3>Step 4: Flip and Add Cheese</h3>
+        <p>Flip the patties and cook for an additional 3-4 minutes. Add a slice of cheddar cheese on top of each patty and cover the grill for 1-2 minutes to melt the cheese.</p>
+        <h3>Step 5: Toast the Buns</h3>
+        <p>While the cheese melts, place the hamburger buns on the grill, cut side down, for about 1-2 minutes until lightly toasted.</p>
+        <h3>Step 6: Assemble the Cheeseburgers</h3>
+        <p>On the bottom half of each bun, place a patty with melted cheese, followed by lettuce, tomato, and onion. Top with ketchup and mustard, and close with the other half of the bun.</p>
+        <h3>Step 7: Serve</h3>
+        <p>Serve immediately with your favorite sides like fries or coleslaw!</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tasty Bites. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

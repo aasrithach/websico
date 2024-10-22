@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Neon Style */
+        .text-neon {
+            color: #D400FF;
+            text-shadow: 0 0 5px rgba(255, 0, 255, 0.8), 0 0 10px rgba(255, 0, 255, 0.7), 0 0 15px rgba(255, 0, 255, 0.6);
+        }
+        .btn-neon {
+            background-color: #D400FF;
+            color: white;
+            box-shadow: 0 0 10px rgba(212, 0, 255, 0.5);
+        }
+        .btn-neon:hover {
+            background-color: #BB00CC;
+        }
+        .recipe-card {
+            box-shadow: 0 0 15px rgba(212, 0, 255, 0.3);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .recipe-card:hover {
+            transform: scale(1.05);
+        }
+        .recipe-card-header img {
+            border-radius: 8px 8px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-card-body {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-neon" href="#">Tasty Bites</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Recipes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+                            <li><a class="dropdown-item" href="non-vegetarian.html">Non-Vegetarian</a></li>
+                            <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+                            <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                            <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                            <li><a class="dropdown-item" href="healthy-recipes.html">Healthy Recipes</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Vegetarian Recipes Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center text-neon mb-4">Vegetarian Recipes</h2>
+            <div class="row">
+                <!-- Recipe Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/veg1.jpg" class="card-img-top" alt="Grilled Veggie Skewers">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Grilled Veggie Skewers</h5>
+                            <p class="card-text">Delicious grilled veggies packed with flavor.</p>
+                            <a href="veg-recipe-1.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/veg2.jpg" class="card-img-top" alt="Stuffed Bell Peppers">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Stuffed Bell Peppers</h5>
+                            <p class="card-text">Bell peppers stuffed with savory goodness.</p>
+                            <a href="veg-recipe-2.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/veg3.jpg" class="card-img-top" alt="Veggie Stir Fry">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Veggie Stir Fry</h5>
+                            <p class="card-text">Quick and easy stir-fried vegetables.</p>
+                            <a href="veg-recipe-3.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/veg-4.jpg" class="card-img-top" alt="Chickpea Salad">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Chickpea Salad</h5>
+                            <p class="card-text">A healthy and protein-packed salad.</p>
+                            <a href="veg-recipe-4.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/veg5.jpg" class="card-img-top" alt="Vegetable Soup">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Vegetable Soup</h5>
+                            <p class="card-text">Hearty soup full of fresh vegetables.</p>
+                            <a href="veg-recipe-5.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

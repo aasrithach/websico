@@ -1,0 +1,174 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    border-bottom: 2px solid #a900ff;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #a900ff; /* Neon Purple */
+    text-shadow: 0 0 10px #a900ff;
+}
+
+/* Increased Font Size for Navigation Links */
+nav ul li a {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 550;
+    color: #A020F0; 
+    font-size: 1.4rem;
+    text-decoration: none; 
+    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover State - Neon Purple Glow Effect */
+nav ul li a:hover {
+    color: #A020F0; /* Keeps text color purple on hover */
+    text-shadow: 0 0 10px #A020F0, 0 0 20px #A020F0, 0 0 30px #A020F0; /* Purple Glow */
+    transform: scale(1.1); /* Slightly enlarge on hover for emphasis */
+}
+
+/* Dropdown Menu Styles */
+.navbar-nav .dropdown-menu {
+    min-width: 200px; /* Ensures enough width for dropdown items */
+    background-color: #1b1b1b; /* Match the card background */
+    border: 1px solid #333; /* Match the card border */
+}
+
+/* Dropdown Item Styles */
+.navbar-nav .dropdown-item {
+    color: #A020F0; /* Purple color */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    font-size: 1.2rem; /* Increased font size for dropdown items */
+    padding: 10px 15px; /* Add padding for better spacing */
+}
+
+.navbar-nav .dropdown-item:hover {
+    color: #D400FF; /* Change the text color on hover */
+    text-shadow: 0 0 5px rgba(212, 0, 255, 0.8), 0 0 10px rgba(212, 0, 255, 0.7); /* Neon glow effect */
+    background-color: transparent; /* Keep the background transparent */
+}
+
+
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-blend-mode: overlay;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 0 20px  #FFFF00;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #f10a0a ;
+}
+
+.search-box input {
+    background: #111;
+    color: #a900ff;
+    border: 2px solid #a900ff;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.1rem;
+}
+
+.search-box input::placeholder {
+    color: #a900ff;
+}
+
+.search-box button {
+    background: #a900ff;
+    color: #111;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #8a00d4; /* Slightly darker purple */
+}
+
+/* Recipe Section */
+.recipes h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #a900ff;
+    text-shadow: 0 0 10px #a900ff;
+}
+
+.recipe-card {
+    background: #1b1b1b;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgba(169, 0, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a900ff;
+}
+
+.recipe-card .card-text {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.recipe-card .btn-neon {
+    background: #a900ff;
+    color: #111;
+    border: none;
+    text-shadow: 0 0 10px #a900ff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.recipe-card .btn-neon:hover {
+    background: #8a00d4;
+}
+
+.recipe-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 40px rgba(169, 0, 255, 0.4);
+}
+
+/* Footer */
+footer {
+    background: #111;
+    border-top: 2px solid #a900ff;
+    text-align: center;
+    padding: 20px 0;
+    color: #ccc;
+    text-shadow: 0 0 5px #a900ff;
+}
+
+body {
+    background-color: #f8f9fa; /* Soft off-white */
+}

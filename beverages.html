@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Neon Style */
+        .text-neon {
+            color: #D400FF;
+            text-shadow: 0 0 5px rgba(255, 0, 255, 0.8), 0 0 10px rgba(255, 0, 255, 0.7), 0 0 15px rgba(255, 0, 255, 0.6);
+        }
+        .btn-neon {
+            background-color: #D400FF;
+            color: white;
+            box-shadow: 0 0 10px rgba(212, 0, 255, 0.5);
+        }
+        .btn-neon:hover {
+            background-color: #BB00CC;
+        }
+        .recipe-card {
+            box-shadow: 0 0 15px rgba(212, 0, 255, 0.3);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .recipe-card:hover {
+            transform: scale(1.05);
+        }
+        .recipe-card-header img {
+            border-radius: 8px 8px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-card-body {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-neon" href="#">Tasty Bites</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Recipes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+                            <li><a class="dropdown-item" href="non-vegetarian.html">Non-Vegetarian</a></li>
+                            <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+                            <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                            <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                            <li><a class="dropdown-item" href="healthy-recipes.html">Healthy Recipes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Beverages Recipes Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center text-neon mb-4">Beverages Recipes</h2>
+            <div class="row">
+                <!-- Recipe Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/beverage1.jpg" class="card-img-top" alt="Lemonade">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Lemonade</h5>
+                            <p class="card-text">Refreshing lemonade perfect for hot days.</p>
+                            <a href="beverage-recipe-1.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/bev-2.jpg" class="card-img-top" alt="Iced Coffee">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Iced Coffee</h5>
+                            <p class="card-text">Chilled coffee with a touch of vanilla.</p>
+                            <a href="beverage-recipe-2.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/bev-3.jpg" class="card-img-top" alt="Fruit Smoothie">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Fruit Smoothie</h5>
+                            <p class="card-text">A delicious blend of fresh fruits.</p>
+                            <a href="beverage-recipe-3.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/beverage4.jpg" class="card-img-top" alt="Mojito">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Mojito</h5>
+                            <p class="card-text">A classic mojito with mint and lime.</p>
+                            <a href="beverage-recipe-4.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card recipe-card">
+                        <div class="recipe-card-header">
+                            <img src="images/bev-5.jpg" class="card-img-top" alt="Chocolate Milkshake">
+                        </div>
+                        <div class="recipe-card-body">
+                            <h5 class="card-title">Chocolate Milkshake</h5>
+                            <p class="card-text">A rich chocolate milkshake topped with cream.</p>
+                            <a href="beverage-recipe-5.html" class="btn btn-neon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tasty Bites</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom simple styles for the contact page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .contact-header {
+            background-color:#d36cf5;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .contact-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .contact-header p {
+            font-size: 1.2rem;
+        }
+        .contact-section {
+            padding: 50px 0;
+        }
+        .form-control, .btn {
+            border-radius: 5px;
+        }
+        .btn {
+            background-color: #fcb69f;
+            color: white;
+            border: none;
+        }
+        .btn:hover {
+            background-color:#d36cf5;
+        }
+        .contact-info {
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .contact-info h4 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: #fcb69f;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="logo mb-0">Tasty Bites</h1>
+
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <!-- Recipes Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="recipesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Recipes
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="recipesDropdown">
+                                    <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+                                    <li><a class="dropdown-item" href="non-vegetarian.html">Non-Vegetarian</a></li>
+                                    <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+                                    <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                                    <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                                    <li><a class="dropdown-item" href="healthy-recipes.html">Healthy Recipes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Us Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We are here to help you. Get in touch with us for any inquiries.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-md-6">
+                    <h2 class="mb-4">Send Us a Message</h2>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn w-100">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-md-5 offset-md-1">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <p><strong>Address:</strong> 123 Food Street, City, Country</p>
+                        <p><strong>Email:</strong> <a href="mailto:2300033219@kluniversity.in"></a>2300033219@kluniversity.in</p>
+                        <p><strong>Phone:</strong> +123 456 7890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Tasty Bites. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries (Bootstrap + Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
